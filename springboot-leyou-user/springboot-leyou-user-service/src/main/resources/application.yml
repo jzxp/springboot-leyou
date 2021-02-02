@@ -1,0 +1,22 @@
+server:
+  port: 7010
+
+spring:
+  application:
+    name: user-service
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/leyou?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone = GMT
+    username: root
+    password: root
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:8888/eureka
+  instance:
+    lease-renewal-interval-in-seconds: 10
+    lease-expiration-duration-in-seconds: 30
+
+mybatis:
+  type-aliases-package: com.juzipi.demo.pojo

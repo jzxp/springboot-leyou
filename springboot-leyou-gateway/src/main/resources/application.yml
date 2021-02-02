@@ -20,3 +20,5 @@ zuul:
     search-service: /search/**
 #    路由到商品微服务
     item-service: /item/**
+#    路由到用户微服务
+    user-service: /user/**
