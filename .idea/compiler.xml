@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springboot-leyou-common" />
+        <module name="springboot-leyou-upload" />
+        <module name="springboot-leyou-item-service" />
+        <module name="springboot-leyou-registry" />
+        <module name="springboot-leyou-goods-web" />
+        <module name="springboot-leyou-gateway" />
+        <module name="springdata-leyou-search" />
+        <module name="springboot-leyou-item-interface" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="springboot-leyou" options="-parameters" />
+      <module name="springboot-leyou-common" options="-parameters" />
+      <module name="springboot-leyou-gateway" options="-parameters" />
+      <module name="springboot-leyou-goods-web" options="-parameters" />
+      <module name="springboot-leyou-item" options="-parameters" />
+      <module name="springboot-leyou-item-interface" options="-parameters" />
+      <module name="springboot-leyou-item-service" options="-parameters" />
+      <module name="springboot-leyou-registry" options="-parameters" />
+      <module name="springboot-leyou-upload" options="-parameters" />
+      <module name="springdata-leyou-search" options="-parameters" />
+    </option>
+  </component>
+</project>

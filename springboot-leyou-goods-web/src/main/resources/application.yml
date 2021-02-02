@@ -1,0 +1,27 @@
+server:
+  port: 7009
+
+
+spring:
+  application:
+    name: goods-web
+  thymeleaf:
+    cache: false
+  rabbitmq:
+    host: 127.0.0.1
+    virtual-host: /leyou
+    username: leyou
+    password: leyou
+
+
+  main:
+    #    可以重写？多个接口上的@FeignClient(“相同服务名”)会报错
+    allow-bean-definition-overriding: true
+
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:8888/eureka
+#      拉取服务时间
+    registry-fetch-interval-seconds: 10

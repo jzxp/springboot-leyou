@@ -1,0 +1,22 @@
+server:
+  port: 8888
+
+spring:
+  application:
+    name: leyou-registry
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8888/eureka
+
+#    加上这个注解eureka就不会注册给自己了
+    register-with-eureka: false
+#    关闭拉取服务，这样就看不到 eureka自己的微服务了
+    fetch-registry: false
+
+  server:
+#    关闭自我保护模式
+    enable-self-preservation: false
+#    定期清理无效链接 30秒
+    eviction-interval-timer-in-ms: 30000

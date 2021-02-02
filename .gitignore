@@ -1,0 +1,9 @@
+# Project exclude paths
+/springboot-leyou-common/target/
+/springboot-leyou-gateway/target/
+/springboot-leyou-goods-web/target/
+/springboot-leyou-item/springboot-leyou-item-interface/target/
+/springboot-leyou-item/springboot-leyou-item-service/target/
+/springboot-leyou-registry/target/
+/springboot-leyou-upload/target/
+/springdata-leyou-search/target/

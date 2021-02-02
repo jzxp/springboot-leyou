@@ -1,0 +1,22 @@
+server:
+  port: 8800
+
+spring:
+  application:
+    name: leyou-gateway
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8888/eureka
+#      拉取服务的间隔时间
+    registry-fetch-interval-seconds: 10
+
+zuul:
+#  前缀
+  prefix: /api
+  routes:
+#    路由到搜索微服务
+    search-service: /search/**
+#    路由到商品微服务
+    item-service: /item/**

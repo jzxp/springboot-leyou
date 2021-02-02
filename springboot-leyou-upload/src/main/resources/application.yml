@@ -1,0 +1,32 @@
+server:
+  port: 7005
+
+spring:
+  application:
+    name: upload-service
+  servlet:
+    multipart:
+#      最大文件大小
+      max-file-size: 5MB
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:8888/eureka
+  instance:
+#    心跳时间
+    lease-renewal-interval-in-seconds: 10
+#    服务过期时间
+    lease-expiration-duration-in-seconds: 30
+
+#fdfs:
+##  读取超时时间
+#  so-timeout: 1500
+##  连接超时时间
+#  connect-timeout: 600
+#  #缩略图
+#  thumb-image:
+#    width: 60
+#    height: 60
+##    tracker服务地址列表
+#  tracker-list:

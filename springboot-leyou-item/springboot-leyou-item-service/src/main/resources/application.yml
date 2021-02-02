@@ -1,0 +1,40 @@
+server:
+  port: 7001
+
+
+spring:
+  application:
+    name: item-service
+
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql:///leyou?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone = GMT
+    username: root
+    password: root
+
+  rabbitmq:
+#    地址
+    host: 127.0.0.1
+#    虚拟主机
+    virtual-host: /leyou
+    username: leyou
+    password: leyou
+#    交换机
+    template:
+      exchange: LEYOU.ITEM.EXCHANGE
+
+eureka:
+  client:
+    service-url:
+#      注册进eureka
+      defaultZone: http://localhost:8888/eureka
+  instance:
+#    心跳时间
+    lease-renewal-interval-in-seconds: 15
+#    服务过期时间
+    lease-expiration-duration-in-seconds: 30
+
+
+mybatis:
+  type-aliases-package: com.juzipi.demo.pojo
+
