@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="springboot-leyou-common" />
+        <module name="springboot-leyou-sms" />
         <module name="springboot-leyou-upload" />
         <module name="springboot-leyou-user-service" />
         <module name="springboot-leyou-item-service" />
@@ -30,6 +31,7 @@
       <module name="springboot-leyou-item-interface" options="-parameters" />
       <module name="springboot-leyou-item-service" options="-parameters" />
       <module name="springboot-leyou-registry" options="-parameters" />
+      <module name="springboot-leyou-sms" options="-parameters" />
       <module name="springboot-leyou-upload" options="-parameters" />
       <module name="springboot-leyou-user" options="-parameters" />
       <module name="springboot-leyou-user-interface" options="-parameters" />

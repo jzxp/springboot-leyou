@@ -17,6 +17,7 @@
         <module>springdata-leyou-search</module>
         <module>springboot-leyou-goods-web</module>
         <module>springboot-leyou-user</module>
+        <module>springboot-leyou-sms</module>
     </modules>
 
     <name>springboot-leyou</name>
