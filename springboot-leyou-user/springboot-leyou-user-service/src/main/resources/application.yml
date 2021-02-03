@@ -9,6 +9,14 @@ spring:
     url: jdbc:mysql://127.0.0.1:3306/leyou?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone = GMT
     username: root
     password: root
+  redis:
+    host: 127.0.0.1
+  rabbitmq:
+    host: 127.0.0.1
+    virtual-host: /leyou
+    username: leyou
+    password: leyou
+
 
 eureka:
   client:
