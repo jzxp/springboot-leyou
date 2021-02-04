@@ -7,23 +7,28 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="springboot-leyou-common" />
-        <module name="springboot-leyou-sms" />
+        <module name="springboot-leyou-auth-common" />
         <module name="springboot-leyou-upload" />
         <module name="springboot-leyou-user-service" />
+        <module name="springboot-leyou-goods-web" />
+        <module name="springboot-leyou-item-interface" />
+        <module name="springboot-leyou-common" />
+        <module name="springboot-leyou-sms" />
+        <module name="springboot-leyou-auth-service" />
         <module name="springboot-leyou-item-service" />
         <module name="springboot-leyou-registry" />
-        <module name="springboot-leyou-goods-web" />
         <module name="springboot-leyou-user-interface" />
         <module name="springboot-leyou-gateway" />
         <module name="springdata-leyou-search" />
-        <module name="springboot-leyou-item-interface" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="springboot-leyou" options="-parameters" />
+      <module name="springboot-leyou-auth" options="-parameters" />
+      <module name="springboot-leyou-auth-common" options="-parameters" />
+      <module name="springboot-leyou-auth-service" options="-parameters" />
       <module name="springboot-leyou-common" options="-parameters" />
       <module name="springboot-leyou-gateway" options="-parameters" />
       <module name="springboot-leyou-goods-web" options="-parameters" />

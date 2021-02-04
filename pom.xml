@@ -18,6 +18,7 @@
         <module>springboot-leyou-goods-web</module>
         <module>springboot-leyou-user</module>
         <module>springboot-leyou-sms</module>
+        <module>springboot-leyou-auth</module>
     </modules>
 
     <name>springboot-leyou</name>
