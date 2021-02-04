@@ -22,3 +22,5 @@ zuul:
     item-service: /item/**
 #    路由到用户微服务
     user-service: /user/**
+#    登录授权中心微服务
+    auth-service: /auth/**
