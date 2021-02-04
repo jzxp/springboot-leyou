@@ -1,0 +1,26 @@
+server:
+  port: 7200
+
+spring:
+  application:
+    name: auth-service
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:8888/eureka
+#      拉取服务时间
+    registry-fetch-interval-seconds: 10
+  instance:
+#    心跳时间
+    lease-renewal-interval-in-seconds: 10
+#    服务过期时间 表示eureka server至上一次收到client的心跳之后，等待下一次心跳的超时时间
+    lease-expiration-duration-in-seconds: 30
+
+leyou:
+  jwt:
+    secret: leyou@Login(Auth}*^31)&heiMa% # 登录校验的密钥
+    pubKeyPath: D:\\SpringBootLearning\\tmp\\rsa.pub
+    priKeyPath: D:\\SpringBootLearning\\tmp\\rsa.pri
+    expire: 30
+    cookieName: LY_TOKEN
