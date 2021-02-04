@@ -10,6 +10,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.UnsupportedEncodingException;
 import java.net.URLDecoder;
 import java.net.URLEncoder;
+import java.security.PublicKey;
 
 /**
  * 
@@ -185,4 +186,6 @@ public final class CookieUtils {
 		return domainName;
 	}
 
+    public static void setCookie(HttpServletRequest request, HttpServletResponse response, PublicKey publicKey) {
+    }
 }
