@@ -24,3 +24,24 @@ zuul:
     user-service: /user/**
 #    登录授权中心微服务
     auth-service: /auth/**
+#    购物车微服务
+    cart-service: /cart/**
+    #携带地址头信息（域名）
+  add-host-header: true
+#    #敏感头信息（设置为空，避免忽略Cookie）
+  sensitive-headers:
+
+leyou:
+  jwt:
+#    私钥
+    pubKeyPath: D:\\SpringBootLearning\\tmp\\rsa.pub
+#    cookiename
+    cookieName: LY_TOKEN
+  filter:
+    allowPaths:
+      - /api/auth
+      - /api/search
+      - /api/user/register
+      - /api/user/check
+      - /api/user/code
+      - /api/item
