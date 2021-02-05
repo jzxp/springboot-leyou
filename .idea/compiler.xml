@@ -11,6 +11,7 @@
         <module name="springboot-leyou-upload" />
         <module name="springboot-leyou-user-service" />
         <module name="springboot-leyou-goods-web" />
+        <module name="springboot-leyou-cart" />
         <module name="springboot-leyou-item-interface" />
         <module name="springboot-leyou-common" />
         <module name="springboot-leyou-sms" />
@@ -29,6 +30,7 @@
       <module name="springboot-leyou-auth" options="-parameters" />
       <module name="springboot-leyou-auth-common" options="-parameters" />
       <module name="springboot-leyou-auth-service" options="-parameters" />
+      <module name="springboot-leyou-cart" options="-parameters" />
       <module name="springboot-leyou-common" options="-parameters" />
       <module name="springboot-leyou-gateway" options="-parameters" />
       <module name="springboot-leyou-goods-web" options="-parameters" />

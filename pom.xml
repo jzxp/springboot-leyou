@@ -19,6 +19,7 @@
         <module>springboot-leyou-user</module>
         <module>springboot-leyou-sms</module>
         <module>springboot-leyou-auth</module>
+        <module>springboot-leyou-cart</module>
     </modules>
 
     <name>springboot-leyou</name>
