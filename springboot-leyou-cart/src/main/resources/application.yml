@@ -1,0 +1,18 @@
+server:
+  port: 7014
+
+spring:
+  application:
+    name: cart-service
+  redis:
+    host: 127.0.0.1
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:8888/eureka
+  instance:
+#    过期时间
+    lease-expiration-duration-in-seconds: 30
+#    心跳时间
+    lease-renewal-interval-in-seconds:
