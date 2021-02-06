@@ -15,4 +15,11 @@ eureka:
 #    过期时间
     lease-expiration-duration-in-seconds: 30
 #    心跳时间
-    lease-renewal-interval-in-seconds:
+    lease-renewal-interval-in-seconds: 10
+
+leyou:
+  jwt:
+    #    公钥
+    pubKeyPath: D:\\SpringBootLearning\\tmp\\rsa.pub
+    #    cookiename
+    cookieName: LY_TOKEN
