@@ -33,7 +33,7 @@ zuul:
 
 leyou:
   jwt:
-#    私钥
+#    公钥
     pubKeyPath: D:\\SpringBootLearning\\tmp\\rsa.pub
 #    cookiename
     cookieName: LY_TOKEN
