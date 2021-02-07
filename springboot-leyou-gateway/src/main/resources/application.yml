@@ -26,6 +26,8 @@ zuul:
     auth-service: /auth/**
 #    购物车微服务
     cart-service: /cart/**
+#    订单微服务
+    order-service: /order/**
     #携带地址头信息（域名）
   add-host-header: true
 #    #敏感头信息（设置为空，避免忽略Cookie）

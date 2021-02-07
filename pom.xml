@@ -20,6 +20,7 @@
         <module>springboot-leyou-sms</module>
         <module>springboot-leyou-auth</module>
         <module>springboot-leyou-cart</module>
+        <module>springboot-leyou-order</module>
     </modules>
 
     <name>springboot-leyou</name>
